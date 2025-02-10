@@ -77,7 +77,7 @@ export default function History() {
         </section>
         <section>
           <div className="flex flex-col pb-32 bg-white">
-            {/* list */}
+            {/* list scroll */}
             <div className="flex flex-col overflow-y-scroll">
               {history ? (
                 <InfiniteScroll
@@ -131,7 +131,7 @@ export default function History() {
           </div>
         </section>
         <div className="text-center text-sm text-[#6F7282] fixed bottom-[60px] left-0 w-full bg-white py-1">
-          Only show the latest 300 records
+          Only show the latest 100 records
         </div>
       </main>
     )
