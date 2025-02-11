@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/utils/tools";
 
+// 静态资源引入也可以封装统一倒入，页面按需引用
 import homePng from "@/app/_assets/icons/navbar/home.png";
 import taskPng from "@/app/_assets/icons/navbar/task.png";
 import topPng from "@/app/_assets/icons/navbar/top.png";
