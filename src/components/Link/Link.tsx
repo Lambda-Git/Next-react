@@ -14,10 +14,11 @@ export const Link: FC<LinkProps> = ({
   href,
   ...rest
 }) => {
+  
   const utils = useUtils()
 
   const onClick = useCallback<MouseEventHandler<HTMLAnchorElement>>(
-    (e) => {
+    (e: any) => {
       propsOnClick?.(e)
       let path: string
       if (typeof href === "string") {
